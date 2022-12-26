@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: ""
-url: "https://scientificmass.github.io/pandanite/"
+baseurl: "/"
+url: "https://scientificmass.github.io/pandanite"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Type on Strap                                    # site's title
