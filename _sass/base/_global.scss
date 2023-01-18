@@ -271,11 +271,17 @@ kbd {
   }
 }
 
-.intro {
+.pandawrapper {
   margin-right: 2rem;
   margin-left: 2rem;
 }
-.intro-title {
+.pandatitle {
   color: #23260c;
   text-align: center;
+}
+.testwrap{
+  background-color: aliceblue;
+  min-width: 2rem;
+  min-height: 2rem;
+  color: rgb(25, 61, 61);
 }
