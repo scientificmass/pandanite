@@ -2,3 +2,23 @@
 ---
 
 @import "type-on-strap";
+
+.call-out h1 {
+    color:rgb(210, 241, 241);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    position: relative;
+    animation: text 3s 1;
+}
+@keyframes text {
+    0%{
+        color: rgb(31, 39, 35);
+        opacity: 0%;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    85%{
+       opacity: 0.8;
+    }
+}
