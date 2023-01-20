@@ -82,7 +82,10 @@ img[align=right] {
 summary {
   cursor: pointer;
 }
-
+.pandawrapper {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
 /* ---- Responsive ---- */
 
 @media screen and (max-width: $break) {
@@ -110,11 +113,15 @@ summary {
     max-width: 100%;
     padding: 0 1%;
   }
+  .pandawrapper {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
 }
 
 @media screen and (max-width: $sm-break) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   h2 {
     font-size: 1em;
@@ -137,6 +144,10 @@ summary {
 
   table {
     overflow-x: scroll;
+  }
+  .pandawrapper {
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 }
 
@@ -271,17 +282,19 @@ kbd {
   }
 }
 
-.pandawrapper {
-  margin-right: 2rem;
-  margin-left: 2rem;
-}
+
 .pandatitle {
-  color: #23260c;
   text-align: center;
+  font-size: 0.75em;
 }
 .testwrap{
-  background-color: aliceblue;
   min-width: 2rem;
   min-height: 2rem;
-  color: rgb(25, 61, 61);
+}
+.bdescription {
+  text-align: center;
+}
+.testwrap ul {
+  padding-left: 1rem;
+
 }
