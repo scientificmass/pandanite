@@ -3,7 +3,7 @@ baseurl: "/"
 url: "https://scientificmass.github.io/pandanite"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Pandanite                                    # site's title
+title: PANDANITE                                    # site's title
 description: "Homepage for Pandanite"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab

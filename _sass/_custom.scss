@@ -1,0 +1,106 @@
+.pandatitle {
+    text-align: center;
+    font-size: 0.75em;
+  }
+  .testwrap{
+    min-width: 2rem;
+    min-height: 2rem;
+  }
+  .bdescription {
+    text-align: center;
+  }
+  .testwrap ul {
+    padding-left: 1rem;
+  }
+  
+
+  .pandawrapper {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ /* ---- Responsive ---- */
+
+@media screen and (max-width: $break) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  h4, tr, th, .meta {
+    font-size: 0.9em;
+  }
+  p, li, td {
+    font-size: 0.8em;
+  }
+
+  iframe,
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+    padding: 0 1%;
+  }
+  .pandawrapper {
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: $sm-break) {
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 0.9em;
+  }
+  h4, th, tr, .meta {
+    font-size: 0.85em;
+  }
+  p, li, td {
+    font-size: 0.8em;
+  }
+  li li {
+    font-size: 0.95em;
+  }
+  li li * {
+    font-size: 1em;
+  }
+
+  table {
+    overflow-x: scroll;
+  }
+  .pandawrapper {
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.call-out h1 {
+  color:rgb(210, 241, 241);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  position: relative;
+  animation: text 3s 1;
+}
+@keyframes text {
+  0%{
+      color: rgb(31, 39, 35);
+      opacity: 0%;
+  }
+  30%{
+      opacity: 0.3;
+  }
+  85%{
+     opacity: 0.8;
+  }
+}
