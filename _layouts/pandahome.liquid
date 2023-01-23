@@ -11,20 +11,23 @@ layout: default
     {% if site.header_feature_image_responsive %}
       @media screen and (max-width: 768px) {
       .call-out_img {
-                                                               background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image }}');
+                                                                                 background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image }}');
       }
-                                                                                            }
-                                                               @media screen and (max-width: 576px) {
-                                                              .call-out_img {
-                                                               background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');
+                                                                                                              }
+                                                                                 @media screen and (max-width: 576px) {
+                                                                                .call-out_img {
+                                                                                 background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');
       }
-                                                                                            }
+                                                                                                              }
     {% endif %}
   </style>
   <div id="main" class="call-out call-out_img">
     <h1>
       {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>" }}
     </h1>
+    <h3>
+      {{ site.header_sub_text | default: "Change <code>header_sub_text</code> in <code>_config.yml</code>" }}
+    </h3>
   </div>
 
   {% include panda/panda.liquid %}
