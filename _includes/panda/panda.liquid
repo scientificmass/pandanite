@@ -6,12 +6,12 @@
     <h1>Simple and elegant ASIC resistant blockchain</h1>
   </div>
   <div class="testwrap">
-    <p class="bdescription">Bamboo is designed with utmost simplicity, performance, and user-friendliness in mind and is 100% written from scratch in C++… it’s not just another boring fork or rebranding of an existing crypto project. Bamboo is GPU and ASIC resistant by leveraging the memory hard hash function
+    <p class="bdescription">Pandanite is designed with utmost simplicity, performance, and user-friendliness in mind and is 100% written from scratch in C++… it’s not just another boring fork or rebranding of an existing crypto project. Pandanite is GPU and ASIC resistant by leveraging the memory hard hash function
       <a href="https://github.com/epixoip/pufferfish">Pufferfish 2.</a>
     </p>
     <h2>Implementation:</h2>
     <p>
-      Bamboo is written in less than 6K lines of code (Bitcoin has >100K). There are a few optimizations that we have made to help further our core objectives:
+      Pandanite is written in less than 6K lines of code (Bitcoin has >100K). There are a few optimizations that we have made to help further our core objectives:
     </p>
     <ul>
       <li>Switched encryption scheme from secp256k1 (which is used by ETH and BTC) to ED25519 – results in 8x speedup during transaction verification and public keys half the size (32 bytes).
@@ -24,7 +24,7 @@
     </ul>
     <h2>Core objectives</h2>
     <p>
-    Bamboo coin is intended to do as few things as possible and to do them incredibly well – it is a store of value coin that:
+    Pandanite coin is intended to do as few things as possible and to do them incredibly well – it is a store of value coin that:
     </p>
     <ul><li>Maintains account balances for billions of users.</li>
     <li>Provides extremely fast transactions between these accounts.</li>
@@ -33,7 +33,7 @@
     <p>That’s it. We don’t aim to solve everything. We desire to keep the code simple.</p>
     </p>
     <h2>Circulation</h2>
-    <p>Bamboo is minted by miners who earn rewards. Mining payments occur using the following algorithm, which yields a total final circulation of 100M BMB:</p>
+    <p>Pandanite is minted by miners who earn rewards. Mining payments occur using the following algorithm, which yields a total final circulation of 100M BMB:</p>
     <ul>
       <li>50 BMB per block until block 1M
      </li>
@@ -41,7 +41,7 @@
       <li>12.5 BMB per block for blocks 2M to 4M</li>
     </ul>
     <h2>Encryption scheme</h2>
-    <p>A key design objective of Bamboo is low compute usage while maintaining a high number of transactions per second. To reach these performance goals Bamboo uses an alternative digital signature system known as ED25519 as a replacement for Bitcoin and Ethereum’s secp256k1. ED25519 has several attractive properties for crypto-currency use cases:</p>
+    <p>A key design objective of Pandanite is low compute usage while maintaining a high number of transactions per second. To reach these performance goals Pandanite uses an alternative digital signature system known as ED25519 as a replacement for Bitcoin and Ethereum’s secp256k1. ED25519 has several attractive properties for crypto-currency use cases:</p>
     <ul>
       <li>Fast signature verification</li>
       <li>Batch signature verification</li>
