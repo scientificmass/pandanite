@@ -31,12 +31,14 @@ $x-sm-break: 320px;
 html, html[data-theme="light"] {
   --background: #ffffff;
   --blockquote: #eef7fa;
-  --selection: #d4d4d4;
+  --selection: #979797;
   --meta: #595959;
-  --link: #28c514;
-  --header-background: #e5f2c9;
+  --link: #1f6f7e;
+  --linkhover: #b4ca83ab;
+  --buttonhover: #cab183;
+  --header-background: #b4ca83;
   --header-text: #ffffff;
-  --header-link: #383838;
+  --header-link: #242323;
   --code-background: #E0E0E0;
   --code-inline: #24292e;
   --text-shadow: #3f3f3f;
@@ -55,8 +57,10 @@ html[data-theme="dark"] {
   --blockquote: #373e47; // blockquote
   --selection: #545d68; // selection
   --meta: #909dab; // meta
-  --link: #b6d96c; // theme, link, link shadow header bg
-  --header-background: #0A160A; // Color before header image load
+  --link: #E8E900; // theme, link, link shadow header bg
+  --linkhover: #a3e900;
+  --buttonhover: #b4ca83ab;
+  --header-background: #070A17; // Color before header image load
   --header-text: #e7f3f4; // header text, feature img text
   --header-link: #adbac7; // header link, search color
   --code-background: #2A3444;
