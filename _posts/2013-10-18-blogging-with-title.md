@@ -1,12 +1,9 @@
 ---
 layout: post
-title: >
-    Blogging with title 
-tags: [Test, Image]
+title: First post
+tags: [Blockchain, Pandanite]
 ---
 
-# I am a BIG title
-
-This is a very tiny tiny post with less than 250 letters.
-
-
+# This is our first post.
+- this is item A
+- this is item B

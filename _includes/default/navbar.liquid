@@ -32,18 +32,6 @@
     <ul class="hide">
 
       {% assign name_page = "" %}
-      {% for item in site.data.menu %}
-        <li class="separator">
-          |
-        </li>
-        <li>
-          <a
-            class="clear"
-            aria-label="{{ item.name }}"
-            title="{{ item.name }}"
-            href="{{ item.url }}">{{ item.name }}</a>
-        </li>
-      {% endfor %}
       {% for page in site.pages %}
         {% unless page.title == null or page.hide or name_page contains page.title %}
           <li class="separator">
@@ -64,6 +52,19 @@
           </li>
         {% endunless %}
         {% assign name_page = page.title | append: name_page %}
+      {% endfor %}
+
+      {% for item in site.data.menu %}
+        <li class="separator">
+          |
+        </li>
+        <li>
+          <a
+            class="clear"
+            aria-label="{{ item.name }}"
+            title="{{ item.name }}"
+            href="{{ item.url }}">{{ item.name }}</a>
+        </li>
       {% endfor %}
 
       {% if site.color_theme == 'auto' %}
