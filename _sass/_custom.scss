@@ -18,7 +18,7 @@ html {
   
 
   .pandawrapper {
-    max-width: 85%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -50,7 +50,7 @@ html {
     padding: 0 1%;
   }
   .pandawrapper {
-    max-width: 60%;
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -83,7 +83,7 @@ html {
     overflow-x: scroll;
   }
   .pandawrapper {
-    max-width: 60%;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -130,15 +130,15 @@ html {
 }
 
 .exchangebutton {
-  background-color: var(--header-background);
-  width: 12rem;
+  background-color: white;
+  width: 16rem;
   padding: 1rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.1);
+  //box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.1);
   text-transform: uppercase;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -149,10 +149,10 @@ html {
 color: #fff;
 }
 .exchangebutton:hover, .exchangebutton:focus, .exchangebutton:active{
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+ // box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-color: var(--buttonhover);
+//  background-color: rgb(245, 244, 243);
 }
 .site-header a {
   font-weight: bold;
@@ -191,5 +191,14 @@ color: #fff;
   transform: scale(1.1);
   background-color: var(--buttonhover);
 }
-
+.logodeck {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+}
+.trackerlogo{
+  width: 50%;
+}
 
