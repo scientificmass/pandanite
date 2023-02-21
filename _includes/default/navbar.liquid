@@ -63,7 +63,7 @@
             class="clear"
             aria-label="{{ item.name }}"
             title="{{ item.name }}"
-            href="{{ item.url }}">{{ item.name }}</a>
+            href="{{ item.url | relative_url}}">{{ item.name }}</a>
         </li>
       {% endfor %}
 
