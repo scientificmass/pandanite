@@ -6,3 +6,5 @@
   name: "Webminer"
 - url: "https://github.com/mrmikeo/pandanite-wallet"
   name: "Wallet"
+- url: "/faq/"
+  name: "FAQ"

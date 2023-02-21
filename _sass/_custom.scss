@@ -144,6 +144,10 @@ html {
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
+  height: 6rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .exchangebutton a {
 color: #fff;
@@ -165,40 +169,52 @@ color: #fff;
   align-items: center;
   height: 8rem;
 }
-.trackerbutton {
-  background-color: red;
+.trackerlogo {
+  background-color: rgb(255, 255, 255);
     font-size: 0.8rem;
-  width: 12rem;
   padding: 1rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.1);
+  //box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.1);
   text-transform: uppercase;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
+  height: 6rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.trackerbutton a {
+.trackerlogo a {
 color: #fff;
 }
-.trackerbutton:hover, .exchangebutton:focus, .exchangebutton:active{
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+.trackerlogo:hover, .trackerlogo:focus, .trackerlogo:active{
+  //box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-color: var(--buttonhover);
+  //background-color: var(--buttonhover);
 }
 .logodeck {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 8rem;
+  height: 10rem;
 }
 .trackerlogo{
-  width: 50%;
+  width: 19%;
 }
-
+.trackertitle, .exchangetitle{
+  color: var(--text);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
